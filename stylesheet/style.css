@@ -1,9 +1,10 @@
 /* hero background image */
 .bgimage {
   height:100vh;
-  background-color: black;
-  /* background: url('../images/img031.jpg'); */
+  background-color: #222831;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/img_2187.jpg');
   background-size:cover;
+  background-position: center;
   position:relative;
 }
 /* text css above hero image*/
@@ -21,4 +22,46 @@
   transform: translate(-50%, -50%);
   color: rgb(40, 5, 5);
 }
+
+.column {
+  background-color: #233142;
+  color: #e3e3e3;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+}
+
+.resized-image {
+  width: 200px; /* Set the desired width */
+  height: 200px; /* Set the desired height */
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Maintain the aspect ratio and fill the container */
+}
+
+.resume-body {
+  background-color: #222831;
+  color: #e3e3e3;
+  padding-top: 50px;
+}
+
+/* .index-body {
+  background-color: #222831;
+  color: #e3e3e3;
+} */
+
+.progress-bar {
+  background-color: #42b883;
+}
+
+.white-text {
+  color: #e3e3e3;
+}
+
+.black-text {
+  color: black;
+}
+
+.justify-content {
+  text
+}
+
+
   

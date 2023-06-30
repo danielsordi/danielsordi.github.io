@@ -5,54 +5,191 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Software Engineer Resume</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="../stylesheet/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script src="../js/animation.js"></script>
 </head>
 
-<body>
-  <div class="container py-5">
-    <div class="row">
-      <div class="col-md-6 mx-auto">
-        <div class="text-center">
-          <h1 class="display-4">John Doe</h1>
-          <p class="lead">Software Engineer</p>
-        </div>
-        <hr>
-        <h3>About Me</h3>
-        <p>I am a passionate and experienced software engineer with expertise in web development and a strong
-          background in full-stack development. I am constantly seeking new challenges and opportunities to enhance my
-          skills and knowledge.</p>
-        <h3>Skills</h3>
-        <ul>
-          <li>JavaScript</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Python</li>
-          <li>Java</li>
-          <li>React</li>
-          <li>Node.js</li>
-          <li>MySQL</li>
-        </ul>
-        <h3>Experience</h3>
-        <h5>Software Engineer - ABC Company</h5>
-        <p><em>May 2018 - Present</em></p>
-        <ul>
-          <li>Developed and maintained web applications using JavaScript, React, and Node.js.</li>
-          <li>Collaborated with cross-functional teams to design and implement new features.</li>
-          <li>Optimized application performance and improved user experience.</li>
-        </ul>
-        <h3>Education</h3>
-        <h5>Bachelor of Science in Computer Science - XYZ University</h5>
-        <p><em>Graduated in May 2018</em></p>
-        <h3>Projects</h3>
-        <h5>Project 1 - E-commerce Website</h5>
-        <p>Developed a responsive e-commerce website using React and Node.js, allowing users to browse and purchase
-          products online.</p>
-        <h5>Project 2 - Task Management App</h5>
-        <p>Created a task management application using JavaScript and MySQL, enabling users to track and organize their
-          tasks efficiently.</p>
-      </div>
-    </div>
-  </div>
-</body>
 
-</html>
+
+<body class="resume-body">
+
+    <header>
+        <nav class=" bg-primary-subtle navbar navbar-expand-lg fixed-top navbarScroll">
+            <div class="container">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../views/aboutme.html">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/danielsordi">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+    
+                            <a class="nav-link" href="../views/resume.html">Résumé</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#photography">Photography</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container py-3">
+        <div class="row">
+            <div class="col-md-4 column p-5 animate__animated animate__zoomInRight">
+                <div class="text-center">
+                    <img src="../images/profile.JPG" alt="Profile Picture" class="img-fluid border border-5 rounded-circle resized-image mb-4">
+                    <h4>Daniel Britzki De Sordi</h4>
+                    <p class="text-muted">Software Engineer</p>
+                </div>
+                <hr>
+                <h5><strong>Contact Details</strong></h5>
+                <ul class="list-unstyled">
+                    <li>Email: daniel.b.sordi@gmail.com</li>
+                    <li>Phone: (+64) 328 212</li>
+                    <li>Auckland, New Zealand</li>
+                </ul>
+                
+                <h5><strong>Technical Skills</strong></h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <strong>JavaScript</strong>
+                        <div class="progress mb-2" style="height: 5px;">
+                            <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="80" aria-valuemin="0"
+                                aria-valuemax="100">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <strong>Java</strong>
+                        <div class="progress mb-2" style="height: 5px;">
+                            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <strong>Node.js</strong>
+                            <div class="progress mb-2" style="height: 5px;">
+                            <div class="progress-bar" role="progressbar" style="width:65%;" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <strong>HTML/CSS</strong>
+                        <div class="progress mb-2" style="height: 5px;">
+                            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <strong>SQL</strong>
+                        <div class="progress mb-2" style="height: 5px;">
+                            <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100">
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Add more skills here -->
+                </ul>
+
+                <h5><strong>Personal Skills</strong></h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <strong>Communication</strong>
+                        <div class="progress mb-2" style="height: 5px;">
+                            <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="80" aria-valuemin="0"
+                                aria-valuemax="100">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <strong>Resourceful</strong>
+                        <div class="progress mb-2" style="height: 5px;">
+                            <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <strong>Resilience</strong>
+                        <div class="progress mb-2" style="height: 5px;">
+                            <div class="progress-bar" role="progressbar" style="width:85%;" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <strong>Creativity</strong>
+                        <div class="progress mb-2" style="height: 5px;">
+                            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <strong>Adaptability</strong>
+                        <div class="progress mb-2" style="height: 5px;">
+                            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100">
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Add more skills here -->
+                </ul>
+
+                <h5>Hobbies</h5>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><i class="bi bi-music-note"></i></li>
+                    <li class="list-inline-item"><i class="bi bi-camera"></i></li>
+                    <li class="list-inline-item"><i class="bi bi-book"></i></li>
+                <!-- Add more hobby icons here -->
+                </ul>
+            </div>
+            <div class="col-md-8">
+                <div class="p-4 animate__animated animate__fadeIn animate__delay-1s">
+                    <h5><Strong>About Me</Strong></h5>
+                    <p>As a resourceful and detail-oriented software developer, I am seeking to leverage my skills and background to create 
+                        innovative solutions that positively impact people's lives and the world. With a background in civil engineering and a passion for 
+                        learning, I bring a unique perspective to problem-solving. I am motivated by the challenge of creating and building something new, 
+                        and I am committed to making a positive impact through my work. As a supportive team member, I value collaboration and communication, 
+                        and I am dedicated to contributing to a positive team culture. My personal values of improvement, well-being, personal growth, and gratitude 
+                        guide my work and decision-making, and I am excited to apply these values to my work in the software industry.
+                    </p>
+                    <hr>
+                    <h3>Education</h3>
+                    <h5>PostGrad Certificate in Information Technology - University of Aucklad</h5>
+                    <p><em>Graduated in Jun 2023</em></p>
+                    <h5>Bachelor of Civil Engineer - FEI University (Brazil)</h5>
+                    <p><em>Graduated in Dez 2013</em></p>
+                    <!-- Add more education details here -->
+                    <hr>
+                    <h3>Work History</h3>
+                    <h5>Software Engineer - ABC Company</h5>
+                    <p><em>May 2018 - Present</em></p>
+                    <ul>
+                        <li>Developed and maintained web applications using JavaScript, React, and Node.js.</li>
+                        <li>Collaborated with cross-functional teams to design and implement new features.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+        
+
