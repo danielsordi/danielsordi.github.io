@@ -59,9 +59,20 @@
   color: black;
 }
 
-.justify-content {
-  text
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height if needed */
 }
 
 
-  
+
+.btn {
+  background-color: #222831;
+  color: white;
+  font-size: small;
+}
+
+
+
