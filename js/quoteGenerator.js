@@ -12,7 +12,7 @@
         text: "The only person you should try to be better than is the person you were yesterday.",
         author: "Unknown"
     }
-    // Add more quotes as needed
+    // Add more quote
 ];
 
 // Variable to keep track of the current quote index
@@ -20,21 +20,21 @@ let currentQuoteIndex = -1;
 
 // Function to get a random quote from the quotes array
 function getRandomQuote() {
-    var randomIndex = Math.floor(Math.random() * quotes.length);
+    let randomIndex = Math.floor(Math.random() * quotes.length);
     return quotes[randomIndex];
 }
 
 // Function to change the quote and author sequentially
 function changeQuote() {
     currentQuoteIndex = (currentQuoteIndex + 1) % quotes.length;
-    var quote = quotes[currentQuoteIndex];
+    let quote = quotes[currentQuoteIndex];
     document.getElementById("quote").textContent = quote.text;
     document.getElementById("author").textContent = "- " + quote.author;
 }
 
 // Display a random quote on page load
 document.addEventListener("DOMContentLoaded", function() {
-    var quote = getRandomQuote();
+    let quote = getRandomQuote();
     document.getElementById("quote").textContent = quote.text;
     document.getElementById("author").textContent = "- " + quote.author;
 });
