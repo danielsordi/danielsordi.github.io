@@ -9,8 +9,24 @@
         author: "Peter Drucker"
     },
     {
-        text: "The only person you should try to be better than is the person you were yesterday.",
-        author: "Unknown"
+        text: "Comparison is the thief of joy.",
+        author: "Theodore Roosevelt"
+    },
+    {
+        text: "The only way to do great work is to love what you do.",
+        author: "Steve Jobs"
+    },
+    {
+        text: "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+        author: "Aristotle"
+    },
+    {
+        text: "x",
+        author: "x"
+    },
+    {
+        text: "x",
+        author: "x"
     }
     // Add more quote
 ];
