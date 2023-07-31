@@ -21,12 +21,12 @@
         author: "Aristotle"
     },
     {
-        text: "x",
-        author: "x"
+        text: "The mind is everything. What you think, you become",
+        author: "Gautama Buddha"
     },
     {
-        text: "x",
-        author: "x"
+        text: "The routine is the foundation of our dreams",
+        author: "Unknown"
     }
     // Add more quote
 ];
